@@ -8,15 +8,19 @@ Gem::Specification.new do |s|
   s.name        = "subscribem"
   s.version     = Subscribem::VERSION
   s.authors     = ["mandyyeung"]
-  s.email       = ["chimmyy@gmail.com"]
-  s.homepage    = "TODO"
+  s.email       = ["mandycyeung@gmail.com"]
+  s.homepage    = "TODO: Set Homepage"
   s.summary     = "TODO: Summary of Subscribem."
   s.description = "TODO: Description of Subscribem."
   s.license     = "MIT"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   s.add_dependency "rails", "~> 4.2.3"
 
   s.add_development_dependency "sqlite3"
+
+  s.add_development_dependency "rspec-rails"
+
+  s.add_development_dependency "capybara"
 end
