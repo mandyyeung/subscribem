@@ -1,4 +1,4 @@
 module Subscribem
-  class ApplicationController < ActionController
+  class ApplicationController < ::ApplicationController
   end
 end
